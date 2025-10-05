@@ -1,13 +1,15 @@
 import { useState } from 'react'
+import Body from './components/pages/Body'
 import './index.css'
 
 function App() {
 
   return (
     <>
-    <h1 className='bg-red-300 text-3xl dashed'>hi there</h1>
-    </>
+   <Body />
+   </>
   )
 }
 
 export default App
+
