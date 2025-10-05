@@ -3,6 +3,7 @@ import Login from "./LoginPage";
 import Header from "./Header";
 import Browser from "./Browser";
 import { RouterProvider } from "react-router-dom";
+import SignUp from "../pages/SignupPage";
 
 const Body  = () => {
 
@@ -14,6 +15,10 @@ const Body  = () => {
         {
             path: "/browse",
             element: <Browser />
+        },
+        {
+            path: "/signup",
+            element: <SignUp />
         }
     ])
     return (
